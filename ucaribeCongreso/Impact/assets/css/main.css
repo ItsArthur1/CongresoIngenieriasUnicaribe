@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #10cfc9;
   --color-secondary: #f85a40;
 }
 
@@ -213,7 +213,7 @@ section {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border-color: #0E153B transparent #0E153B transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -243,7 +243,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #00796b; 
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -859,7 +859,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/construccion.svg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BANNER\ CONVOCATORIA\ LOGO-03.png");
   background-size: 100%;
   padding: 100px 60px;
   border-radius: 15px;
@@ -1873,7 +1873,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-container {
-  background-color: var(--color-primary);
+  background-color: #ffffff;
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;
@@ -1882,7 +1882,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #0E153B;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -2004,7 +2004,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: #0E153B;
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -2013,7 +2013,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #10cfc9;
 }
 
 @keyframes animate-loading {
@@ -2994,10 +2994,10 @@ body {
 
 body{margin-top:20px;}
 .timeline {
-    border-left: 3px solid #727cf5;
+    border-left: 3px solid #10cfc9;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(114, 124, 245, 0.09);
+    background: #0E153B;
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -3061,6 +3061,8 @@ body{margin-top:20px;}
     font-weight: 100;
     font-size: 0.9em;
     min-width: 120px;
+    font-weight: bold;
+
 }
 
 @media (max-width: 767px) {
@@ -3071,8 +3073,8 @@ body{margin-top:20px;}
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #727cf5;
-    box-shadow: 0 0 0 3px #727cf5;
+    -webkit-box-shadow: 0 0 0 3px #10cfc9;
+    box-shadow: 0 0 0 3px #10cfc9;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
