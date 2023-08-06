@@ -859,7 +859,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BANNER\ CONVOCATORIA\ LOGO-03.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
   background-size: 100%;
   padding: 100px 60px;
   border-radius: 15px;
