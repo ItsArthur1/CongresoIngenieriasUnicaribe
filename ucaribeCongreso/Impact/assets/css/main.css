@@ -955,6 +955,32 @@ section {
 
 
 
+@media (min-width: 1100px) and (max-width: 1390px) {
+
+  .call-to-action .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    background-position: center;
+    width: 1100px;
+    height: 400px; 
+    margin-bottom: 20px;
+  
+  }
+
+  .call-to-action .container .cta-btn {
+    padding: 12px 20px;
+    margin-top: 200px;
+
+  }
+
+
+}
+
+
+
 
 
 
