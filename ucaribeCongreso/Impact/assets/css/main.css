@@ -860,11 +860,110 @@ section {
 --------------------------------------------------------------*/
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
-  background-size: 100%;
-  padding: 100px 60px;
+  background-size: 1320px 432px;
+  background-repeat: no-repeat;
   border-radius: 15px;
   overflow: hidden;
+  background-position: center;
+  width: 1320px;
+  height: 432px; 
+  margin-bottom: 20px;
+
 }
+
+.call-to-action .container .cta-btn {
+  
+  margin-top: 300px;
+
+}
+
+
+@media (min-width: 320px) and (max-width: 500px){
+
+  .call-to-action .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
+    background-size: 300px 190px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    background-position: center;
+    width: 300px;
+    height: 190px; 
+    margin-bottom: 20px;
+  
+  }
+
+  .call-to-action .container .cta-btn {
+    padding: 12px 20px;
+    margin-top: 120px;
+
+  }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+  .call-to-action .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
+    background-size: 500px 310px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    background-position: center;
+    width: 500px;
+    height: 310px; 
+    margin-bottom: 20px;
+  
+  }
+
+  .call-to-action .container .cta-btn {
+    padding: 12px 20px;
+    margin-top: 200px;
+
+  }
+
+
+}
+
+
+
+
+@media (min-width: 501px) and (max-width: 1100px) {
+
+  .call-to-action .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://myimagesforusage.s3.us-east-2.amazonaws.com/1_banner_logotipo.png");
+    background-size: 500px 310px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    background-position: center;
+    width: 500px;
+    height: 310px; 
+    margin-bottom: 20px;
+  
+  }
+
+  .call-to-action .container .cta-btn {
+    padding: 12px 20px;
+    margin-top: 200px;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .call-to-action h3 {
   color: #fff;
