@@ -25,6 +25,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -38,7 +42,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="img/logo_ucaribe.svg" alt="">
+        <img src="img/logo_ucaribe_negro.svg" alt="">
       
       </a>
       <nav id="navbar" class="navbar">
@@ -236,14 +240,14 @@
       <h2>Convocatorias</h2>
       <div class="container text-center" data-aos="zoom-out">
   
-        <a class="cta-btn" href="img/Concurso_Logotipo_CEI2023.pdf" target="_blank">Participa</a>
+        <a class="cta-btn" href="img/resultadosLogotipo.png" target="_blank">Ver resultados</a>
       </div>  
     </section>
     
     <section id="convocatorias2" class="call-to-action2 clients section-header">
       <div class="container text-center" data-aos="zoom-out">
   
-        <a class="cta-btn" href="#">Participa</a>
+        <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScDHzp7Ak6miP-p9ycaSYYEZAkbZgf1B3hIxxz4hx8cpt0PYA/viewform" >Participa</a>
       </div>  
     </section>
 
@@ -333,20 +337,67 @@
       </div>
     </section><!-- End Contact Section -->
 
-        <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients section-header">
-          <div class="container" data-aos="zoom-out">
-            <h2>Aliados y patrocinadores</h2>
-    
-            <div class="clients-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="img/patrocinadorZoo.png" class="img-fluid" alt=""></div>
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-header">
+      <div class="container" data-aos="zoom-out">
+        <h2>Aliados y patrocinadores</h2>
 
-              </div>
-            </div>
-    
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="img/patrocinadorZoo.png" class="img-fluid" alt="" data-toggle="modal" data-target="#myModal"></div>
+            <div class="swiper-slide"><img src="img/RadioTurquesa.png" class="img-fluid" alt=""></div>
           </div>
-        </section><!-- End Clients Section -->
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    
+    <!-- ======= banners anteriores ======= -->
+    <section id="clients" class="clients section-header">
+      <div class="container" data-aos="zoom-out">
+        <h2>Congresos anteriores</h2>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="img/poster-2014-447x682.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2015-506x782.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2016-480x726.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2017-480x729.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2018-480x742.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2019-480x705.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2020-506x675.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster-2021-506x782.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="img/poster2022.jpg" class="img-fluid" alt=""></div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End banners aneteiores Section -->
+
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+  
+              <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+  
+              <div class="modal-body">
+                  <img src="img/patrocinadorZoo.png" class="img-fluid" alt="">
+              </div>
+  
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+  
+          </div>
+      </div>
+  </div>
+
 
   </main><!-- End #main -->
 
@@ -378,7 +429,7 @@
           <p>
             SM. 78, Mza. 1, Lote 1, esquina Fraccionamiento Tabachines.<br><br>
             <strong>Teléfono:</strong> +52 998 881 4400<br>
-            <strong>Email:</strong>congresoingenieria@ucaribe.edu.mx<br>
+            <strong>Email:</strong> congresoingenieria@ucaribe.edu.mx<br>
           </p>
 
         </div>
