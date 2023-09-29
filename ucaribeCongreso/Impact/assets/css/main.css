@@ -316,6 +316,11 @@ section {
   margin-right: 6px;
 }
 
+.logoPrincipal {
+  width: 400px;
+  height: 550px;
+  /* padding-left: 100px; */
+}
 
 @media (max-width: 1440px) {
   .header .logo img {
