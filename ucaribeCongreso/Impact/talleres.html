@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Congreso de Estudiantes de Ingeniería</title>
+  <title>Impact Bootstrap Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
@@ -39,268 +39,232 @@
 
 <body>
 
+  <header id="header" class="header d-flex align-items-center" style="height: 115px;">
 
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <object data="img/logoAnimadoOficial.svg" type="image/svg+xml" width="120px" height="300px" style="padding-right: 10px;"></object>
+        
+        <img src="img/logo_ucaribe.svg" alt="">
 
-    <header id="header" class="header d-flex align-items-center" style="height: 115px;">
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#agenda">Programa</a></li>
+          <li><a href="index.html#convocatorias1">Convocatorias</a></li>
+          <li><a class="nav-link disabled" href="conferencias.html#plenarias">Plenarias</a></li> <!--importantes-->
+          <li><a class="nav-link disabled" href="conferencias.html">Ponencias</a></li> <!-- alumnos-->
+          <li><a class="nav-link disabled" href="talleres.html#talleres">Talleres</a></li>
+          <li><a href="index.html#contact">Contacto</a></li>
+          <li><button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSekXRWxRtLnPOPmTn0ocRTCwjW68CjW67A0tOcf-Y_IZOalAA/viewform?usp=sf_link', '_blank')">Regístrate</button></li>
 
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <object data="img/logoAnimadoOficial.svg" type="image/svg+xml" width="120px" height="300px" style="padding-right: 10px;"></object>
-            
-            <img src="img/logo_ucaribe.svg" alt="">
-    
-          </a>
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a href="index.html#inicio">Inicio</a></li>
-              <li><a href="index.html#agenda">Programa</a></li>
-              <li><a href="index.html#convocatorias1">Convocatorias</a></li>
-              <li><a class="nav-link disabled" href="conferencias.html#plenarias">Plenarias</a></li> <!--importantes-->
-              <li><a class="nav-link disabled" href="conferencias.html">Ponencias</a></li> <!-- alumnos-->
-              <li><a class="nav-link disabled" href="">Talleres</a></li>
-              <li><a href="index.html#contact">Contacto</a></li>
-              <li><button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSekXRWxRtLnPOPmTn0ocRTCwjW68CjW67A0tOcf-Y_IZOalAA/viewform?usp=sf_link', '_blank')">Regístrate</button></li>
-    
-            </ul>
-          </nav><!-- .navbar -->
-    
-          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    
-        </div>
-      </header><!-- End Header -->
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
   <!-- End Header -->
 
   <main id="main">
 
+   
 
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
+    <!-- ======= Conferencias magistral Section ======= -->
+    <section id="talleres" class="recent-posts sections-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4 posts-list">
+        <div class="section-header">
+          <h2>Talleres</h2>
+        </div>
 
-          <div class="col-xl-4 col-md-6">
+        <div class="row gy-4" >
+
+
+
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_ClaudiaPadillaModificado.pdf', '_blank');" style="cursor: pointer;">
             <article>
-
               <div class="post-img">
                 <img src="./img/R_ClaudiaPadilla.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Estacionamiento Explanada</p>
               <h2 class="title">
-                <a>Visita proyecto sobre Corales</a>
+                <a>Proyecto sobre corales</a>
               </h2>
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1Z9aLIqjHylsoEs0BgbVMKKADIIC8FU_Yi_OpEeYZLdk/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Dra. Claudia Padilla Souza</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_ClaudiaPadillaS.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 12:00 - 15:00</time>
+                  </p>
                 </div>
-                 <br>
-
               </div>
-
             </article>
-          </div><!-- End post list item -->
+          </div>
 
 
 
-          <div class="col-xl-4 col-md-6">
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_JenniferMModificado.pdf', '_blank');" style="cursor: pointer;">
             <article>
-
               <div class="post-img">
                 <img src="./img/R_Jennifer Méndez.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Laboratorio  de Fisioquímica (LFQ) | Planta baja | Edificio B </p>
               <h2 class="title">
-                <a>Identificación de especies asociadas a macroalgas y procespos de herborización</a>
+                <a >Identificación de especies asociadas a macroalgas y preprocesos de herborización</a>
               </h2>
-
-
-              <div class=" justify-content-center align-items-center">
-                <div class="text-center">
-                  <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1J7kvaxkDqy1mYGIbYoLLlf2sHF2mwn1iIMV3zUN7BkY/closedform', '_blank')">Regístrate</button>
-                  <br>
-                  <br>
-                  <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_JenniferMendez.pdf', '_blank')">Descripción</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Mtra. Jennifer Méndez Torres</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
+                    <br>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00  | 16:00 - 19:00 </time>
+                  </p>
                 </div>
               </div>
-               <br>
-
-
-
-
-
             </article>
           </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+
+
+
+ 
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_OliviaGutuModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_OliviaGutú.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Aula de cómputo C1 | Nivel 1 | Edificio C</p>
               <h2 class="title">
                 <a>Aprendizaje automático: diseño de un corrector ortográfico</a>
               </h2>
-
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/19PfFJq2vTXk51IMgOnEgFnu8Ph_7BHciSeneQla_Buw/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Dra. Olivia Gutú Ocampo</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_OliviaGutu.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
-
             </article>
           </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+
+
+
+
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_MiguelAngelGModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_MiguelAngelGomez.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Antiguo LAMA | Planta baja | Edificio F </p>
               <h2 class="title">
                 <a>Instrumentación con tarjetas de desarrollo de bajo costo para medir variables ambientales</a>
               </h2>
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1ySjYJdeU--bP6518ifRqkF_2tmzknrd9qzOZ2tb8U54/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">M. en I. Miguel Angel Gómez Reali | M.T.I.A. Gustavo Villareal Brito</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_MiguelAngelG.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 | 16:00 - 19:00</time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_NahumDmodificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_NahumDominguez.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Laboratorio de Tecnologías Ambientales (LTA) | Planta baja | Edificio G </p>
               <h2 class="title">
                 <a>Manejo y operación de la cadena de frío en la industria cárnica</a>
               </h2>
-
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1tjbamne5cNH1CFvfVwWNlPSpEAfkKDSEwrCrCjPU8yo/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Lic. Nahum Dominguez</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_NahumDom.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
-
             </article>
           </div><!-- End post list item -->
 
 
 
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_FernandoPerezModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_FernandoPerez.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Aula 11C | Nivel 2 | Edificio C </p>
               <h2 class="title">
                 <a>Explorando datos a través de la web: Introducción a Django para la ingeniería en datos</a>
               </h2>
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1acgQpc07OwoVSMHTRY7caqtOmhymXQui978lx0hKA0g/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Ing. Fernando Gómez</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_FernandoPerezG.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 | 16:00 - 19:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
- 
-
             </article>
           </div><!-- End post list item -->
 
 
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+
+
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_JuanDiegoCModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_JuandiegoCanul.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Laboratorio de Tecnologías de la información (LTI) | Nivel 1 | Edificio F </p>
               <h2 class="title">
                 <a>Matemáticas con Maple</a>
               </h2>
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1acsRJwtCgdJpi8tsG9qiXH9EF75EgqRF5Qtze9TWOn0/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Lic. Juan Diego Canul Chalé</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_JuanDiegoC.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 | 16:00 - 19:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
@@ -308,78 +272,71 @@
 
 
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/TalleresPabloLandaverdeModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_PabloLandaverde.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Laboratorio de Manufactura y Automatización (LAMA) | Planta baja | Edificio G </p>
               <h2 class="title">
                 <a>Introducción al grabado y corte láser</a>
               </h2>
-
-
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1WLZ9sjy98uX3r0Fwd2CUXuMClt_Be7P6JsMnSZViunU/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Ing. Pablo Jacob Landaverde Lorenzo | Ing. José Iván Herrera Lopez</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_PabloLandaverde.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 10:00 - 13:00 | 16:00 - 19:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
-
-
             </article>
           </div><!-- End post list item -->
 
 
 
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
+
+
+          <div class="col-xl-4 col-md-6" onclick="window.open('./talleresDesc/Talleres_KenRamirezModificado.pdf', '_blank');" style="cursor: pointer;">
+            <article>
               <div class="post-img">
                 <img src="./img/R_KenRamirez.png" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category"></p>
-
+              <p class="post-category">Ubicación: Aula sin nombre, | Nivel 1 | Edificio G </p>
               <h2 class="title">
-                <a>Habilidades de comunicación efectiva</a> 
+                <a>Habilidades de comunicación efectiva</a>
               </h2>
-
-              <div class="align-items-center">
-                <!-- <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0"> -->
-                <div class=" justify-content-center align-items-center">
-                  <div class="text-center">
-                    <button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/1U8Nup7h66KLczBIKxm-bU-iIJT8UeYs1jztWZRx2RxU/closedform', '_blank')">Regístrate</button>
+              <div class="d-flex align-items-center">
+                <div class="post-meta">
+                  <p class="post-author">Arq. Ken Ramírez</p>
+                  <p class="post-date">
+                    <time datetime="2023-11-09">Noviembre 9, 2023</time>
                     <br>
-                    <br>
-                    <button class="button-17" role="button" onclick="window.open('talleresDesc/Talleres_KenRamirez.pdf', '_blank')">Descripción</button>
-                  </div>
+                    <time datetime="2023-11-09">Hora: 16:00 - 19:00 </time>
+                  </p>
                 </div>
-                 <br>
               </div>
-
             </article>
           </div><!-- End post list item -->
 
-        </div><!-- End blog posts list -->
+
+
+
+
+        </div><!-- End recent posts list -->
 
       </div>
-    </section><!-- End Blog Section -->
+    </section><!-- end Conferencias magistral Section -->
+
+
+
+
 
   </main><!-- End #main -->
-
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -388,25 +345,43 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <div class="social-links d-flex mt-4">
-            <a href="https://www.facebook.com/congresodeestudiantesdeingenieria?mibextid=ZbWKwL" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://instagram.com/congresoingenierias?igshid=MzRlODBiNWFlZA==" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Links</h4>
+          <h4>Useful Links</h4>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contacto</h4>
+          <h4>Contact Us</h4>
           <p>
-            SM. 78, Mza. 1, Lote 1, esquina Fraccionamiento Tabachines.<br><br>
-            <strong>Teléfono:</strong> +52 998 881 4400<br>
-            <strong>Email:</strong> congresoingenieria@ucaribe.edu.mx<br>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
           </p>
 
         </div>
@@ -416,19 +391,19 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        <!-- &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved -->
+        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
   </footer><!-- End Footer -->
   <!-- End Footer -->
-
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
