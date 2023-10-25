@@ -1326,7 +1326,7 @@ section {
 
 
 .call-to-action3 .container{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/3_+banner_hackathon.png");
+  background: url("../img/3bannerideathon.png");
   background-size: 1320px 432px;
   background-repeat: no-repeat;
   border-radius: 15px;
