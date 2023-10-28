@@ -45,19 +45,22 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="../Impact/assets/img/logo_ucaribe.svg" alt="">
-      
+        <object data="img/logoAnimadoOficial.svg" type="image/svg+xml" width="120px" height="300px" style="padding-right: 10px;"></object>
+        
+        <img src="img/logo_ucaribe.svg" alt="">
+
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="index.html#about">Agenda</a></li>
-          <li><a href="#plenarias">Plenarias</a></li>
-          <li><a href="#conferencias">Ponencias</a></li>
-          <!-- <li><a href="#portfolio">Talleres</a></li> -->
-          <!-- <li><a href="#conferencias-magistrales">Conferencias magistrales</a></li> -->
-          <li><a href="index.html#contact">Talleres</a></li>
-          <li><a href="index.html#contact">Contacto</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#agenda">Programa</a></li>
+          <li><a href="#convocatorias1">Convocatorias</a></li>
+          <li><a class="nav-link disabled" href="conferencias.html#plenarias">Plenarias</a></li> <!--importantes-->
+          <li><a class="nav-link disabled" href="conferencias.html">Ponencias</a></li> <!-- alumnos-->
+          <li><a href="talleres.html">Talleres</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><button class="button-17" role="button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSekXRWxRtLnPOPmTn0ocRTCwjW68CjW67A0tOcf-Y_IZOalAA/viewform?usp=sf_link', '_blank')">Regístrate</button></li>
+
         </ul>
       </nav><!-- .navbar -->
 
@@ -82,22 +85,19 @@
         </div>
 
         <div class="row gy-4">
-
           <div class="col-xl-4 col-md-6">
             <article>
-
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="./plenarias_reduce/1.png" alt="Imagen de la plenaria" class="img-fluid max-width: 100%; width: 500px; height: 1000px;">
               </div>
-
+          
               <p class="post-category">Politics</p>
-
+          
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="blog-details.html">Título de la publicación</a>
               </h2>
-
+          
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Maria Doe</p>
                   <p class="post-date">
@@ -105,9 +105,10 @@
                   </p>
                 </div>
               </div>
-
+          
             </article>
-          </div><!-- End post list item -->
+          </div>
+          
 
           <div class="col-xl-4 col-md-6">
             <article>
