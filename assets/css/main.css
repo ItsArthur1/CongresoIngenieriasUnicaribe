@@ -1325,6 +1325,55 @@ section {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .call-to-action3 .container{
   background: url("../img/3bannerideathon.png");
   background-size: 1320px 432px;
@@ -1342,6 +1391,10 @@ section {
   margin-top: 300px;
 
 }
+
+
+
+
 
 
 @media (min-width: 320px) and (max-width: 500px){
@@ -1367,10 +1420,10 @@ section {
 
 }
 
-@media (min-width: 501px) and (max-width: 650px) {
+/* @media (min-width: 501px) and (max-width: 650px) {
 
-  .call-to-action3 .container {
-    background: url("../img/3bannerideathon.png");
+  .call-to-action1 .container {
+    background: url("../img/1_banner_logotipo.png");
     background-size: 500px 310px;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -1382,25 +1435,25 @@ section {
   
   }
 
-  .call-to-action3 .container .cta-btn {
+  .call-to-action1 .container .cta-btn {
     padding: 12px 20px;
     margin-top: 200px;
 
   }
 
-}
+} */
 
-@media (min-width: 501px) and (max-width: 1100px) {
+@media (min-width: 501px) and (max-width: 890px) {
 
   .call-to-action3 .container {
     background: url("../img/3bannerideathon.png");
-    background-size: 500px 310px;
+    background-size: 500px 200px;
     background-repeat: no-repeat;
     border-radius: 15px;
     overflow: hidden;
     background-position: center;
     width: 500px;
-    height: 310px; 
+    height: 200px; 
     margin-bottom: 20px;
   
   }
@@ -1413,6 +1466,38 @@ section {
 
 
 }
+
+@media (min-width: 891px) and (max-width: 1200px) {
+
+  .call-to-action3 .container {
+    background: url("../img/3bannerideathon.png");
+    background-size: 730px 280px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    background-position: center;
+    width: 730px;
+    height: 280px; 
+    margin-bottom: 20px;
+  
+  }
+
+  .call-to-action3 .container .cta-btn {
+    padding: 12px 20px;
+    margin-top: 200px;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
 
 .call-to-action3 h3 {
   color: #fff;
@@ -1504,11 +1589,13 @@ section {
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+  background-color: #0e153b;
+
 }
 
 .call-to-action3 .cta-btn:hover {
-  background: var(--color-primary);
-  border: 2px solid var(--color-primary);
+  background: #0e153b;  
+  border: 2px solid #0e153b;  ;
 }
 
 @keyframes pulsate-btn {
