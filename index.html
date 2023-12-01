@@ -159,7 +159,44 @@
   </section>
   <!-- End Hero Section -->
 
-  <main id="hero">
+
+
+  <main id="hero"> 
+
+    <section class="about">
+      <div class="section-header">
+        <h2>Aviso</h2>
+      </div>
+    
+      <!-- Contenedor responsivo con la grilla de Bootstrap -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Ajusta las clases de la columna para pantallas medianas y grandes -->
+          <div class="col-12 col-md-10 col-lg-8">
+            <!-- Imagen centrada y responsiva dentro del div -->
+            <div style="position: relative; width: 100%; padding-top: 56.25%;">
+              <img class="img-fluid rounded-3 mb-4" src="./img/anuncioPlenaria.jpeg" alt="Imagen descriptiva"
+              style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; max-width: 100%; max-height: 100%; margin: auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    
+    <!-- Añade estilos personalizados para ajustar el tamaño de la imagen en diferentes puntos de interrupción -->
+    <style>
+      /* Para dispositivos con ancho de pantalla de 992px o más, como laptops */
+      @media (min-width: 992px) {
+        .about img.img-fluid {
+          max-width: none; /* Permite que la imagen se expanda más allá del 100% de su contenedor */
+          width: auto; /* Ajusta el ancho de la imagen automáticamente */
+          max-height: 80%; /* Aumenta el porcentaje si necesitas que la imagen sea más grande */
+        }
+        
+      }
+    </style>
+    
 
     <!-- ======= About Us Section ======= -->
     <section id="hero" class="about">
